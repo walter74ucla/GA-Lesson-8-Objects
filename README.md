@@ -71,7 +71,7 @@ Don't get hung up on the fancy name. It just means you definied the object liter
 
 Here's an empty Object Literal: 
 
-`const myShiny Object = {};`
+`const myShinyObject = {};`
 
 #### Constructors
 
