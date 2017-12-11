@@ -211,7 +211,7 @@ classroom.sayHello()
 => Hello
 ```
 
-##`this` for object references
+## `this` for object references
 
 In JavaScript, `this` is a keyword that refers to the current object. When used in a method on an object, it will always refer to the current object.
 
