@@ -297,3 +297,4 @@ We will use objects in JavaScript every day, and you will have plenty of time to
 - [JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 - [Intro to Object-Orientated Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
 - [Objects in Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+- [All of JavaScript in one image](https://coodict.github.io/javascript-in-one-pic/js%20in%20one%20pic.png)
