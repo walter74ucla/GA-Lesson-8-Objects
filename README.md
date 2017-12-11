@@ -6,18 +6,13 @@
 - Create and use Objects
 - Describe Objects supreme importance in JavaScript
 - Add and retrieve properties to an existing object using the dot and bracket notations
-- Iterate over the keys of an object to return and manipulate values
+- Understand Objects role in the JavaScript language. 
 
 ### Preparation
 *Before this lesson, students should already be able to:*
 
 - Create and manipulate variables with javascript
 - Use the chrome dev tools console
-
-Objects in JavaScript
-=====
-
-## Opening
 
 ### What is an object?
 
