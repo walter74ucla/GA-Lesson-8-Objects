@@ -211,36 +211,6 @@ classroom.sayHello()
 => Hello
 ```
 
-## `this` for object references
-
-In JavaScript, `this` is a keyword that refers to the current object. When used in a method on an object, it will always refer to the current object.
-
-
-```
-var classroom = {
-  name: "WDI 2",
-  campus: "London",
-  start: "1/1/2000",
-  classInfo: function(){
-    console.log("This is " + this.name + " and the class starts on " + this.start);
-  }
-};
-
-classroom.classInfo()
-=> This is WDI 2 and it starts on 1/1/2000
-```
-
-### Let's Practice :computer: 
-
- ```
-- In a javaScript file, create a new Object myFurby and give it four properties, including an age. 
-- Define a method `growOlder()` on your object that increases myFurby's age by one year, using the `this` keyword.
-- Define another method `speak()` **outside of the object**. 
-- Add the `speak()` method to the myFurby object
-- Paste your code in the thread below when done
-- 7 min. 
-```
-
 ## Everything is an Object in JavaScript
 
 Mind. Blown. 
