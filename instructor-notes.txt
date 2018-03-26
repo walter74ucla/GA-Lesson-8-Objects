@@ -1,0 +1,92 @@
+=========================================
+w02d01
+Lesson 2
+
+Instructor: Alex White
+
+Markdown: https://git.generalassemb.ly/wdi-wc-march2018/Objects
+
+Zoom: https://generalassembly.zoom.us/j/219820979
+
+
+#w02d01 #objects #js
+=========================================
+
+
+
+Notes:
+
+*Activity*
+
+- In your Chrome Console, create an Object called `bigfoot` with propterties of `shoesize`, `height`, and `current location`. 
+- Add some more properties you come up with on your own. 
+- BONUS: Add a method (or function, same deal) to your bigfoot object!
+- **Copy-paste your code as a reply to this instruction in Slack**
+- 4 min.
+
+
+=========================================
+
+*Activity*
+
+- In your Chrome Console, create a new Object and give it four properties and a method using what we just learned. 
+- Retrieve each property and call the method. Remember you need `()` to envoke a funtion
+- See what happenes when you retrieve a method from a function without calling it using `()`. 
+- Thumbs up when done! 
+- 5 min.
+
+
+=========================================
+
+*Activity*
+
+- In your Chrome Console, create a new Object and give it four properties and a method using bracket notation. 
+- Retrieve each property and call the method. Remember you need `()` to envoke a funtion
+- Thumbs up when done! 
+- 3 min.
+
+=========================================
+
+PART II
+
+=========================================
+
+*Activity*
+
+- In a javaScript file, create a new Object myFatCat and give it five properties, including a weight. 
+- Define a method `eat()` on your object that increases myFatCat's weight by one pound, using the `this` keyword.
+- Define another method `meow()` **outside of the object**. 
+- Add the `meow()` method to the myFatCat object
+- Make the cat:
+ - meow
+ - console.log it's weight
+ - eat
+ - meow again
+ - console.log it's weight again
+- Paste your code in the thread below when done
+- 7 min. 
+
+=========================================
+
+*Activity*
+
+- using one of the objects you used earlier today, use a for..in loop to console.log each key AND value
+- Paste your code in the thread below when done
+- 7 min. 
+
+=========================================
+
+*Activity*
+
+- Create a `monkey` object, which has the following properties:
+ - `name`
+ - `species`
+ - `foodsEaten`
+- And the following methods:
+ - `eatSomething(thingAsString)`
+ - `introduce`: producers a string introducing itself, including its name, species, and what it's eaten
+- Create 3 monkeys total. Make sure all 3 monkeys have all properties set and methods defined.
+- Exercise your monkeys by retrieving their properties and using their methods. Practice using both syntaxes for retrieving properties (dot notation and brackets).
+- Paste your code in the thread below when done
+- 20 min. 
+
