@@ -279,7 +279,25 @@ We will use objects in JavaScript every day, and you will have plenty of time to
 - Not gaurunteed to be in order
 - JavaScript is built on Objects
 - We can get and set properties and methods on objects using **dot** or **bracket** notation
-- We can use the `this` keyword to access the object itself. 
+
+## The `this` keyword
+
+We can use the `this` keyword to access the object itself.
+
+```js
+let grimm = {
+  name: "Grimm",
+  sayName: () => {
+    console.log(this.name); 
+  }
+}
+
+grimm.sayName();
+// "Grimm"
+```
+
+Generally speaking the `this` keyword tells us the *context* of where we are in the code. When used inside an object, `this` will point to that object. When used inside of a function, this will point to that function. There are exceptions to this, and we'll look deeper at `this` in the future. 
+
 
 ### Let's Practice :computer: 
 
