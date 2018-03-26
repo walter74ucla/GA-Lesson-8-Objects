@@ -287,7 +287,7 @@ We can use the `this` keyword to access the object itself.
 ```js
 let grimm = {
   name: "Grimm",
-  sayName: () => {
+  sayName: function () {
     console.log(this.name); 
   }
 }
