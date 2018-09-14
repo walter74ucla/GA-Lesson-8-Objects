@@ -53,7 +53,6 @@ A key can be either a name, a number or a string, the corresponding value to a k
 - In your Chrome Console, create an Object called `bigfoot` with propterties of `shoesize`, `height`, and `current location`. 
 - Add some more properties you come up with on your own. 
 - BONUS: Add a method (or function, same deal) to your bigfoot object!
-- Copy-paste your code as a reply to this instruction in Slack
 - 4 min.
 ```
 
@@ -87,42 +86,13 @@ var myObject = new Object();
 
 That's kinda weird though. You will see the point of Object Constructors later when we get more advanced. For now stick to literals. 
 
-#### Object.create
 
-It is possible to use the syntax [`Object.create()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create).
-
-This is outside of the scope of this lesson, but if you see it, don't panic. It's just another way of creating an object. 
-
-## Adding and retrieving properties to objects
-
-We are going to create an object `galaxy` that contains properties `diameterInLightYears` and `isEliptical`:
-
-```javascript
-var galaxy = new Object();
-=> undefined
-
-galaxy.diameterInLightYears = 100000;
-=> 100000
-
-galaxy.isEliptical = true;
-=> true
-```
-
-We can then retrieve these properties the same way: 
-
-```javascript
-galaxy.diameterInLightYears;
-=> 100000
-
-galaxy.isEliptical;
-=> true
-``` 
 ## Object methods
 
 As we've said before, the value of a property can be anything in JavaScript, means we can also attach functions to objects properties. When a function is attached to a property, this function becomes a `method`. Methods are defined the exact same way as a function, except that they have to be defined as the property of an object.
 
 ```javascript
-var classroom = {
+const classroom = {
   name: "WDI+ TX",
   sayHello: function() {
     console.log("Hello");
@@ -192,7 +162,7 @@ If you want to delete a property of an object (and by extension, the value attac
 The following code shows how to remove a property:
 
 ```
-var myHerb = {name: "thyme", flavor: "savory"};
+const myHerb = {name: "thyme", flavor: "savory"};
 delete myHerb.flavor;
 myHerb
 // {name: "thyme"};
@@ -203,7 +173,7 @@ myHerb
 We can attach regular functions to objects as methods, even after they are created.
 
 ```
-var sayHello = function() { console.log("Hello"); }
+const sayHello = () => { console.log("Hello"); }
 
 classroom.sayHello = sayHello;  
 
@@ -223,11 +193,11 @@ Arrays are objects, and functions are objects. Numbers, strings, and booleans ar
 
 
 ```javascript
-let myArray = [];
+const myArray = [];
 typeof myArray;
 //"object"
 
-let myString = "dope af";
+const myString = "dope af";
 typeof(myString)
 //"string"
 
