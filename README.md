@@ -72,21 +72,6 @@ Here's an empty Object Literal:
 
 `const myShinyObject = {};`
 
-#### Constructors
-
-The [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) constructor "constructs" an object using the `new` keyword. 
-
-```javascript
-var myObject = new Object();
-```
-
-**Note:** ¥ou can also create arrays, strings, and even integers in this way: 
-
-`let myNumber = new Number(7);`
-
-That's kinda weird though. You will see the point of Object Constructors later when we get more advanced. For now stick to literals. 
-
-
 ## Object methods
 
 As we've said before, the value of a property can be anything in JavaScript, means we can also attach functions to objects properties. When a function is attached to a property, this function becomes a `method`. Methods are defined the exact same way as a function, except that they have to be defined as the property of an object.
