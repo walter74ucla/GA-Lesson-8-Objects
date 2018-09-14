@@ -50,7 +50,7 @@ A key can be either a name, a number or a string, the corresponding value to a k
 ### Let's Practice :computer: 
 
  ```
-- In your Chrome Console, create an Object called `bigfoot` with propterties of `shoesize`, `height`, and `current location`. 
+- Create an Object called `bigfoot` with propterties of `shoesize`, `height`, and `current location`. 
 - Add some more properties you come up with on your own. 
 - BONUS: Add a method (or function, same deal) to your bigfoot object!
 - 4 min.
