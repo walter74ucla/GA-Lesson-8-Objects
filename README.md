@@ -36,9 +36,9 @@ const skateboard = {
   gripColor: "black", 
   company:   "Toy Machine",
   graphic:   "monster graphic",
-  kickflip:  () => {
+  kickflip(){
                console.log("SIIIICK DOOD");
-             }
+          }
 };
 ```
 
