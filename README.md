@@ -158,7 +158,9 @@ myHerb
 We can attach regular functions to objects as methods, even after they are created.
 
 ```
-const sayHello = () => { console.log("Hello"); }
+const sayHello = function(){ 
+  return console.log("Hello"); 
+}
 
 classroom.sayHello = sayHello;  
 
